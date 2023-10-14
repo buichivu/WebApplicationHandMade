@@ -1,14 +1,12 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
-	  <FrameworkReference Include="Microsoft.AspNetCore.App" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\handMadeShop.Application\handMadeShop.Application.csproj" />
     <ProjectReference Include="..\handMadeShop.Data\handMadeShop.Data.csproj" />
     <ProjectReference Include="..\handMadeShop.Utilities\handMadeShop.Utilities.csproj" />
     <ProjectReference Include="..\handMadeShop.ViewModels\handMadeShop.ViewModels.csproj" />
