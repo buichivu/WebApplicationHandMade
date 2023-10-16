@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\handMadeShop.Application\handMadeShop.Application.csproj" />
+		<ProjectReference Include="..\handMadeShop.Data\handMadeShop.Data.csproj" />
+		<ProjectReference Include="..\handMadeShop.Utilities\handMadeShop.Utilities.csproj" />
+		<ProjectReference Include="..\handMadeShop.ViewModels\handMadeShop.ViewModels.csproj" />
+	</ItemGroup>
+</Project>

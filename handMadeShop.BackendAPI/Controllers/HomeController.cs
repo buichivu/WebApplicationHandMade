@@ -1,5 +1,6 @@
 ﻿using handMadeShop.BackendAPI.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 
 namespace handMadeShop.BackendAPI.Controllers

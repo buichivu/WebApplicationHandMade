@@ -1,7 +1,6 @@
 ﻿using handMadeShop.Data.Entities;
 using handMadeShop.ViewModels.Common;
 using handMadeShop.ViewModels.System.Users;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

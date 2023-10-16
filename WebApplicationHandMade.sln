@@ -3,22 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationHandMade", "WebApplicationHandMade\WebApplicationHandMade.csproj", "{9C7CDE6A-BD6F-4F6A-9417-A825564321D1}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DF8ACE2F-B952-4E23-B908-5A8055CC33CC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Solution Items", "0.Solution Items", "{DF8ACE2F-B952-4E23-B908-5A8055CC33CC}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "handMadeShop.Data", "handMadeShop.Data\handMadeShop.Data.csproj", "{041461D8-06EE-413A-8DF9-28781A93980B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "handMadeShop.Data", "handMadeShop.Data\handMadeShop.Data.csproj", "{041461D8-06EE-413A-8DF9-28781A93980B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "handMadeShop.Application", "handMadeShop.Application\handMadeShop.Application.csproj", "{BFAB0462-D354-42ED-9F8E-C8F48271EC94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "handMadeShop.Application", "handMadeShop.Application\handMadeShop.Application.csproj", "{BFAB0462-D354-42ED-9F8E-C8F48271EC94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "handMadeShop.Utilities", "handMadeShop.Utilities\handMadeShop.Utilities.csproj", "{355F7A7A-AC3C-4265-B179-EDD4C044D563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "handMadeShop.Utilities", "handMadeShop.Utilities\handMadeShop.Utilities.csproj", "{355F7A7A-AC3C-4265-B179-EDD4C044D563}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "handMadeShop.ViewModels", "handMadeShop.ViewModels\handMadeShop.ViewModels.csproj", "{FACAFCA6-07B9-4B8A-AC52-EC18BD736AC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "handMadeShop.ViewModels", "handMadeShop.ViewModels\handMadeShop.ViewModels.csproj", "{FACAFCA6-07B9-4B8A-AC52-EC18BD736AC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "handMadeShop.BackendAPI", "handMadeShop.BackendAPI\handMadeShop.BackendAPI.csproj", "{E61AAF5D-A6A7-4A58-8D22-4B4823937CAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "handMadeShop.BackendAPI", "handMadeShop.BackendAPI\handMadeShop.BackendAPI.csproj", "{E61AAF5D-A6A7-4A58-8D22-4B4823937CAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Infrastructure", "1.Infrastructure", "{45749895-36F7-4476-9B72-BBDDD8A51C43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{DC24C0EC-94AA-4601-AB2A-FE6138A0EEDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Hosts", "3.Hosts", "{6C658965-4D59-4702-B0AF-B03DF9F710D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "handMadeShop.AdminApp", "handMadeShop.AdminApp\handMadeShop.AdminApp.csproj", "{6624F18F-823F-4CBC-8FF2-CBDCD061A32D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "handMadeShop.ApiIntegration", "handMadeShop.ApiIntegration\handMadeShop.ApiIntegration.csproj", "{7E8D7F0C-804B-4904-BF05-421282DAACB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,10 +34,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9C7CDE6A-BD6F-4F6A-9417-A825564321D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C7CDE6A-BD6F-4F6A-9417-A825564321D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C7CDE6A-BD6F-4F6A-9417-A825564321D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C7CDE6A-BD6F-4F6A-9417-A825564321D1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{041461D8-06EE-413A-8DF9-28781A93980B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{041461D8-06EE-413A-8DF9-28781A93980B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{041461D8-06EE-413A-8DF9-28781A93980B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -50,9 +54,26 @@ Global
 		{E61AAF5D-A6A7-4A58-8D22-4B4823937CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E61AAF5D-A6A7-4A58-8D22-4B4823937CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E61AAF5D-A6A7-4A58-8D22-4B4823937CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6624F18F-823F-4CBC-8FF2-CBDCD061A32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6624F18F-823F-4CBC-8FF2-CBDCD061A32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6624F18F-823F-4CBC-8FF2-CBDCD061A32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6624F18F-823F-4CBC-8FF2-CBDCD061A32D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E8D7F0C-804B-4904-BF05-421282DAACB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8D7F0C-804B-4904-BF05-421282DAACB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E8D7F0C-804B-4904-BF05-421282DAACB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E8D7F0C-804B-4904-BF05-421282DAACB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{041461D8-06EE-413A-8DF9-28781A93980B} = {DC24C0EC-94AA-4601-AB2A-FE6138A0EEDA}
+		{BFAB0462-D354-42ED-9F8E-C8F48271EC94} = {DC24C0EC-94AA-4601-AB2A-FE6138A0EEDA}
+		{355F7A7A-AC3C-4265-B179-EDD4C044D563} = {45749895-36F7-4476-9B72-BBDDD8A51C43}
+		{FACAFCA6-07B9-4B8A-AC52-EC18BD736AC9} = {45749895-36F7-4476-9B72-BBDDD8A51C43}
+		{E61AAF5D-A6A7-4A58-8D22-4B4823937CAE} = {6C658965-4D59-4702-B0AF-B03DF9F710D1}
+		{6624F18F-823F-4CBC-8FF2-CBDCD061A32D} = {6C658965-4D59-4702-B0AF-B03DF9F710D1}
+		{7E8D7F0C-804B-4904-BF05-421282DAACB7} = {6C658965-4D59-4702-B0AF-B03DF9F710D1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2FE471C1-6BCB-4A1E-A66D-89E569A67680}
